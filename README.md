@@ -1,16 +1,57 @@
-# React + Vite
+# Edukativne igre
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Edukativne igre su web-aplikacija namijenjena djeci koja kroz interaktivne aktivnosti vježbaju prepoznavanje slova, povezivanje slova sa slikama te slaganje i dopunjavanje riječi.
 
-Currently, two official plugins are available:
+## Igre
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Aplikacija sadrži tri edukativne igre:
 
-## React Compiler
+1. **Dopunjavanje riječi sa slovima** – dijete odabire odgovarajuće slovo kako bi pravilno dopunilo riječ.
+2. **Spajanje slova sa slikama** – dijete povlači početno slovo na odgovarajuću sliku.
+3. **Slaganje riječi od slova** – dijete od ponuđenih slova slaže zadanu riječ.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Za točne odgovore korisnik dobiva pohvalu i zvjezdice, dok ga aplikacija nakon pogrešnog odgovora potiče da pokuša ponovno.
 
-## Expanding the ESLint configuration
+## Pokretanje aplikacije
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Za pokretanje projekta potrebno je imati instaliran Node.js.
+
+Nakon preuzimanja projekta otvorite mapu projekta i instalirajte potrebne pakete:
+
+    npm install
+
+Zatim pokrenite aplikaciju:
+
+    npm run dev
+
+U web-pregledniku otvorite adresu koja se prikaže nakon pokretanja, najčešće:
+
+    http://localhost:5173/
+
+## Upute za korištenje
+
+Na početnom ekranu odaberite gumb **„Pokreni“**.
+
+Nakon toga odaberite jednu od tri ponuđene edukativne igre.
+
+Prije početka igre prikazuje se kratka uputa koja objašnjava zadatak. Tijekom igre korisnik rješava zadatke i dobiva povratnu informaciju o svojim odgovorima.
+
+Za točan odgovor korisnik dobiva pohvalu i zvjezdicu. Ako pogriješi, može pokušati ponovno.
+
+Nakon uspješnog rješavanja svih zadataka prikazuje se završni ekran s pohvalom i brojem osvojenih zvjezdica.
+
+## Korištene tehnologije
+
+- React
+- JavaScript / JSX
+- Vite
+- HTML / CSS
+- Web Speech API
+
+## Namjena
+
+Aplikacija je namijenjena djeci koja uče slova i riječi. Može se koristiti samostalno ili uz podršku roditelja, učitelja ili pedagoga.
+
+## Autor
+
+Monia Kopjar
