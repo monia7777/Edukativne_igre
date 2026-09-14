@@ -51,7 +51,3 @@ Nakon uspješnog rješavanja svih zadataka prikazuje se završni ekran s pohvalo
 ## Namjena
 
 Aplikacija je namijenjena djeci koja uče slova i riječi. Može se koristiti samostalno ili uz podršku roditelja, učitelja ili pedagoga.
-
-## Autor
-
-Monia Kopjar
